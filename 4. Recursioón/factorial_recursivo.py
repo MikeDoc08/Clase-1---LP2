@@ -13,6 +13,10 @@ def factorial(n):
 print(factorial(4))
 
 
+# 4!
+# 4x3x2x1 = 24
+
+
 # Iteración: Cálculo del Factorial
 
 def factorial_iterativo(n):
@@ -21,4 +25,4 @@ def factorial_iterativo(n):
         resultado *= i
     return resultado
 
-print(factorial_iterativo(4))
+# print(factorial_iterativo(4))

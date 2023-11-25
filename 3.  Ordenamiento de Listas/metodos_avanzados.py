@@ -7,7 +7,7 @@ def contador():
     conteo_manzanas = frutas.count('manzana')  # Resultado: 3
     print(conteo_manzanas)
 
-contador()
+# contador()
 
 
 # index(valor): Devuelve el índice del primer elemento con el valor especificado.

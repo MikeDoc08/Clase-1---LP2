@@ -27,6 +27,7 @@ def ordenamientoPersonalizado():
     palabras = ["perro", "gato", "elefante", "ratón"]
     palabras_ordenadas = sorted(palabras, key=len)  # Ordenar por longitud de palabra
     # Resultado: ["gato", "perro", "ratón", "elefante"]
+
     print(palabras_ordenadas)
 
 ordenamientoPersonalizado()

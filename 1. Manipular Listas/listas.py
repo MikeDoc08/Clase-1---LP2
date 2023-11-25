@@ -26,7 +26,7 @@ def modificarElementoIndice():
     mi_lista[1] = 10  # Modifica el segundo elemento de la lista
     print(mi_lista)
 
-# modificarElemento()
+# modificarElementoIndice()
 
 
 # Añadir Elementos al Final:
@@ -59,8 +59,9 @@ def eliminarElementoValor():
 # Eliminar Elementos por Índice:
 
 def eliminarElementoIndice():
-    elemento_eliminado = mi_lista.pop(3)  # Elimina y devuelve el elemento en la posición 3
+    elemento_eliminado = mi_lista.pop(2)  # Elimina y devuelve el elemento en la posición 3
     print(elemento_eliminado)
+    print(mi_lista)
 
 # eliminarElementoIndice()
 
@@ -84,3 +85,11 @@ def operacionesListas():
     print(repetir_lista)
 
 # operacionesListas()
+
+
+def extender():
+    mi_lista.extend([80, 90, 100])
+
+    print(mi_lista)
+
+extender()
